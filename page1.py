@@ -10,7 +10,7 @@ def hangman(money, bet):
       holder_list.append("  ")
     return (''.join(holder_list))
 
-  words = ['australia', 'penguin', 'ventilation', 'somtimes', 'islands', 'myths', 'keyboard', 'mirror', 'television', 'towel', 'carpet', 'two']
+  words = ['australia', 'penguin', 'ventilation', 'somtimes', 'islands', 'myths', 'keyboard', 'mirror', 'television', 'towel', 'carpet', 'two', 'paper', 'computer', 'yay', 'definition', 'monitor', 'backpacking', 'bottle', 'timing', 'notifications', 'shell', 'projection']
 
   choice = input("Would you like to input your own list of words?\n").lower()
 
